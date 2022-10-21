@@ -10,7 +10,7 @@ pipeline {
 
                 // Run Docker on a Unix agent.
                 sh "docker build -t jenkins_nodejs ."
-                sh "docker run -d -p 8040:3000 --name nodeapp5 jenkins_nodejs"
+                sh "docker run -d -p 8042:3000 --name nodeapp3 jenkins_nodejs"
                 sh "docker ps"
 
              
