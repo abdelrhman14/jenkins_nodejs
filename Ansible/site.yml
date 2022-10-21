@@ -1,0 +1,14 @@
+---
+- name: jenkins
+  hosts: ec2_instance
+  remote_user: ubuntu
+  become: yes
+  roles:
+    - jk_instacne
+
+#- name: jenkins_cn
+ # hosts: ec2_container
+ # remote_user: ubuntu
+ # become: yes
+ # roles:
+  #  - jk_container

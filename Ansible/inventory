@@ -1,0 +1,4 @@
+[ec2_instance]
+node-1.example.com ansible_ssh_user=ubuntu ansible_ssh_private_key_file=~/naruto_key.pem  ansible_python_interpreter=/usr/bin/python3
+[ec2_container]
+node-2.example.com ansible_ssh_user=ubuntu ansible_ssh_private_key_file=~/naruto_key.pem  ansible_python_interpreter=/usr/bin/python3
