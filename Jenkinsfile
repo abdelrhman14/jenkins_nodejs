@@ -20,7 +20,7 @@ pipeline {
 
          
                 success {
-                    slackSend color: "good", message: "Build Started: ${BUILD_NUMBER.TAG}"`
+                    slackSend color: "good", message: "Build Started: ${BUILD_NUMBER.TAG}"
                   // echo "process success"
 
                 }
